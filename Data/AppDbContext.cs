@@ -13,9 +13,8 @@ namespace VulnerableApp.Data
             {
                 Id = 1,
                 Username = "admin",
-                Password = "admin",
-                Email =
-            "admin@test.com",
+                PasswordHash = "$2a$11$EjemploHashAdmin",
+                Email = "admin@test.com",
                 Balance = 1000m,
                 CreatedAt = new DateTime(2026, 1, 1)
             },
@@ -23,9 +22,8 @@ namespace VulnerableApp.Data
             {
                 Id = 2,
                 Username = "user1",
-                Password = "123456",
-                Email =
-            "user@test.com",
+                PasswordHash = "$2a$11$EjemploHashUser1",
+                Email = "user@test.com",
                 Balance = 500m,
                 CreatedAt = new DateTime(2026, 1, 1)
             },
@@ -33,13 +31,12 @@ namespace VulnerableApp.Data
             {
                 Id = 3,
                 Username = "user2",
-                Password = "password",
-                Email =
-            "user2@test.com",
+                PasswordHash = "$2a$11$EjemploHashUser2",
+                Email = "user2@test.com",
                 Balance = 750m,
                 CreatedAt = new DateTime(2026, 1, 1)
-            }
-            );
+            });
         }
+
     }
 }
