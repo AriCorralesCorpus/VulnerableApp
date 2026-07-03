@@ -16,7 +16,7 @@ namespace VulnerableApp.Data
                 PasswordHash = "$2a$11$EjemploHashAdmin",
                 Email = "admin@test.com",
                 Balance = 1000m,
-                CreatedAt = new DateTime(2026, 1, 1)
+                CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             },
             new User
             {
@@ -25,7 +25,7 @@ namespace VulnerableApp.Data
                 PasswordHash = "$2a$11$EjemploHashUser1",
                 Email = "user@test.com",
                 Balance = 500m,
-                CreatedAt = new DateTime(2026, 1, 1)
+                CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             },
             new User
             {
@@ -34,7 +34,7 @@ namespace VulnerableApp.Data
                 PasswordHash = "$2a$11$EjemploHashUser2",
                 Email = "user2@test.com",
                 Balance = 750m,
-                CreatedAt = new DateTime(2026, 1, 1)
+                CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             });
         }
 
