@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
-
+using Serilog.Context;
 namespace VulnerableApp.Middleware
 {
     public class CorrelationIdMiddleware
@@ -17,7 +17,10 @@ namespace VulnerableApp.Middleware
 
             context.Response.Headers["X-Correlation-ID"] = cid;
 
-            await _next(context);
+            using (LogContext.PushProperty("CorrelationId", cid))
+            {
+                await _next(context);
+            }
         }
     }
 }
