@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using VulnerableApp.Data;
-
+using VulnerableApp.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +39,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<CorrelationIdMiddleware>();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseMiddleware<RequestLoggingMiddleware>();
+
 app.UseRouting();
 
 app.UseSession();

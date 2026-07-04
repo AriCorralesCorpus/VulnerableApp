@@ -40,6 +40,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult TestError()
+    {
+        throw new Exception("Prueba Middleware");
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
