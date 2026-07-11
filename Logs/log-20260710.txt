@@ -1,0 +1,14 @@
+2026-07-10 20:21:20.134 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-10 20:21:20.445 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-10 20:21:20.718 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-10 20:21:20.725 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-10 20:21:20.730 -06:00 [INF] Hosting environment: Development
+2026-07-10 20:21:20.734 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-10 20:23:38.991 -06:00 [INF] Application is shutting down...
+2026-07-10 20:23:48.742 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-10 20:23:49.005 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-10 20:23:49.126 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-10 20:23:49.131 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-10 20:23:49.133 -06:00 [INF] Hosting environment: Development
+2026-07-10 20:23:49.135 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-10 20:54:52.385 -06:00 [INF] Application is shutting down...
