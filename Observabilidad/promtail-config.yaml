@@ -17,4 +17,18 @@ scrape_configs:
         labels:
           job: vulnerableapp
           application: VulnerableApp
-          __path__: /logs/*.txt
+          environment: dev
+          module: authentication
+          logtype: application
+          __path__: /logs/log-*.txt
+
+      - targets: 
+        - localhost
+      
+        labels: 
+           job: vulnerableapp
+           application: VulnerableApp
+           environment: dev
+           module: security
+           logtype: security
+           __path__: /logs/security-*.txt
