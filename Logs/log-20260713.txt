@@ -1,0 +1,678 @@
+2026-07-13 23:07:50.540 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-13 23:07:50.761 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 23:07:50.869 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-13 23:07:50.874 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 23:07:50.876 -06:00 [INF] Hosting environment: Development
+2026-07-13 23:07:50.878 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-13 23:08:00.106 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/comment - null null
+2026-07-13 23:08:00.149 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 23:08:00.344 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:08:00.412 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-13 23:08:00.432 -06:00 [INF] Inicio Comment.Index
+2026-07-13 23:08:00.436 -06:00 [INF] Total comentarios:0
+2026-07-13 23:08:00.481 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:08:00.846 -06:00 [INF] Executed ViewResult - view Index executed in 376.248ms.
+2026-07-13 23:08:00.862 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 436.2906ms
+2026-07-13 23:08:00.869 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:08:00.869 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:08:00.871 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:08:00.875 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:08:00.875 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:08:00.882 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:08:00.952 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:00.922 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:00.924 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:00.936 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:00.922 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:00.957 -06:00 [INF] HTTP GET /comment Status:200 Tiempo:783 ms
+2026-07-13 23:08:01.028 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:08:01.047 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.050 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:135 ms
+2026-07-13 23:08:01.050 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/comment - 200 null text/html; charset=utf-8 947.8628ms
+2026-07-13 23:08:01.028 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:08:01.129 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.135 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:200 ms
+2026-07-13 23:08:01.063 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 191.3801ms
+2026-07-13 23:08:01.101 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:08:01.145 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 270.8041ms
+2026-07-13 23:08:01.178 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.183 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:08:01.204 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:08:01.215 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:320 ms
+2026-07-13 23:08:01.218 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.230 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.241 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:338 ms
+2026-07-13 23:08:01.242 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 375.8097ms
+2026-07-13 23:08:01.245 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:08:01.247 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:08:01.250 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 383.8462ms
+2026-07-13 23:08:01.267 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.270 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:08:01.283 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:338 ms
+2026-07-13 23:08:01.292 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:62 ms
+2026-07-13 23:08:01.300 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 424.2362ms
+2026-07-13 23:08:01.307 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 103.3356ms
+2026-07-13 23:08:12.816 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/login - null null
+2026-07-13 23:08:12.830 -06:00 [INF] HTTP GET /login Status:404 Tiempo:4 ms
+2026-07-13 23:08:12.841 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/login - 404 0 null 24.3048ms
+2026-07-13 23:08:12.860 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5284/login, Response status code: 404
+2026-07-13 23:09:34.028 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/auth/login - null null
+2026-07-13 23:09:34.063 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:09:34.081 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller VulnerableApp.Controllers.AuthController (VulnerableApp).
+2026-07-13 23:09:34.508 -06:00 [INF] Inicio Login GET
+2026-07-13 23:09:34.514 -06:00 [INF] Executing ViewResult, running view Login.
+2026-07-13 23:09:34.664 -06:00 [INF] Executed ViewResult - view Login executed in 152.646ms.
+2026-07-13 23:09:34.670 -06:00 [INF] Executed action VulnerableApp.Controllers.AuthController.Login (VulnerableApp) in 578.0641ms
+2026-07-13 23:09:34.681 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:09:34.688 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:09:34.692 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:09:34.693 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:09:34.694 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:09:34.696 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:09:34.698 -06:00 [INF] HTTP GET /auth/login Status:200 Tiempo:635 ms
+2026-07-13 23:09:34.712 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.723 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.732 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.762 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/auth/login - 200 null text/html; charset=utf-8 734.5964ms
+2026-07-13 23:09:34.769 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:09:34.769 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:09:34.778 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:09:34.782 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.785 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:09:34.792 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.797 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.801 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.810 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:09:34.818 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.818 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:112 ms
+2026-07-13 23:09:34.822 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:103 ms
+2026-07-13 23:09:34.827 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:95 ms
+2026-07-13 23:09:34.835 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.845 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:09:34.848 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 160.3923ms
+2026-07-13 23:09:34.854 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 162.479ms
+2026-07-13 23:09:34.863 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 170.4765ms
+2026-07-13 23:09:34.868 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:130 ms
+2026-07-13 23:09:34.875 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.901 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.915 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 220.4633ms
+2026-07-13 23:09:34.917 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:101 ms
+2026-07-13 23:09:34.926 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:09:34.938 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 152.8689ms
+2026-07-13 23:09:34.942 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:09:34.952 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:206 ms
+2026-07-13 23:09:34.956 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 260.1714ms
+2026-07-13 23:11:44.434 -06:00 [INF] Application is shutting down...
+2026-07-13 23:11:52.971 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-13 23:11:53.546 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 23:11:53.817 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-13 23:11:53.827 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 23:11:53.830 -06:00 [INF] Hosting environment: Development
+2026-07-13 23:11:53.834 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-13 23:11:55.089 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/ - null null
+2026-07-13 23:11:55.145 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 23:11:55.312 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 23:11:55.359 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-13 23:11:55.370 -06:00 [INF] Inicio Home.Index
+2026-07-13 23:11:55.387 -06:00 [INF] Usuario: null IP: ::1
+2026-07-13 23:11:55.392 -06:00 [INF] Fin Home.Index Tiempo: 21 ms
+2026-07-13 23:11:55.422 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:11:55.543 -06:00 [INF] Executed ViewResult - view Index executed in 130.8534ms.
+2026-07-13 23:11:55.562 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 191.8487ms
+2026-07-13 23:11:55.565 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:11:55.566 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:11:55.566 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:11:55.567 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:11:55.570 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 23:11:55.576 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:11:55.604 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.614 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.688 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.730 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.741 -06:00 [INF] HTTP GET / Status:200 Tiempo:581 ms
+2026-07-13 23:11:55.764 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.837 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:11:55.839 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:11:55.842 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/ - 200 null text/html; charset=utf-8 756.5312ms
+2026-07-13 23:11:55.865 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:11:55.865 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:11:55.942 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.878 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.893 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.930 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.865 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:11:55.961 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:312 ms
+2026-07-13 23:11:55.965 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:352 ms
+2026-07-13 23:11:55.971 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:242 ms
+2026-07-13 23:11:55.976 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:219 ms
+2026-07-13 23:11:55.985 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:55.997 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 433.4035ms
+2026-07-13 23:11:56.006 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 442.6233ms
+2026-07-13 23:11:56.013 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 448.4087ms
+2026-07-13 23:11:56.026 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 449.4613ms
+2026-07-13 23:11:56.030 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:439 ms
+2026-07-13 23:11:56.057 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:11:56.093 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 529.3486ms
+2026-07-13 23:11:56.110 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:56.126 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:11:56.133 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:11:56.140 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:31 ms
+2026-07-13 23:11:56.147 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 89.7979ms
+2026-07-13 23:12:03.722 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/home - null null
+2026-07-13 23:12:03.828 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 23:12:03.841 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-13 23:12:03.857 -06:00 [INF] Inicio Home.Index
+2026-07-13 23:12:03.860 -06:00 [INF] Usuario: null IP: ::1
+2026-07-13 23:12:03.869 -06:00 [INF] Fin Home.Index Tiempo: 12 ms
+2026-07-13 23:12:03.874 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:12:03.888 -06:00 [INF] Executed ViewResult - view Index executed in 14.1267ms.
+2026-07-13 23:12:03.896 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 39.4036ms
+2026-07-13 23:12:03.912 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:12:03.912 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 23:12:03.913 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:12:03.916 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:12:03.916 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:12:03.918 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:12:03.940 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:03.947 -06:00 [INF] HTTP GET /home Status:200 Tiempo:120 ms
+2026-07-13 23:12:04.022 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/home - 200 null text/html; charset=utf-8 311.3057ms
+2026-07-13 23:12:03.978 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:03.965 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.024 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:12:04.127 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.058 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.072 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:12:04.101 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:12:04.056 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:12:04.145 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:206 ms
+2026-07-13 23:12:04.156 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:12:04.156 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.167 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.186 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.191 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 278.0357ms
+2026-07-13 23:12:04.196 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.203 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:225 ms
+2026-07-13 23:12:04.206 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:246 ms
+2026-07-13 23:12:04.212 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:12:04.213 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.229 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:222 ms
+2026-07-13 23:12:04.237 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 321.4955ms
+2026-07-13 23:12:04.243 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 330.1207ms
+2026-07-13 23:12:04.247 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.255 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:12:04.257 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 339.5362ms
+2026-07-13 23:12:04.280 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:100 ms
+2026-07-13 23:12:04.285 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:04.297 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 240.6596ms
+2026-07-13 23:12:04.301 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:311 ms
+2026-07-13 23:12:04.312 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 395.4519ms
+2026-07-13 23:12:13.308 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/search - null null
+2026-07-13 23:12:13.502 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:12:13.558 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-13 23:12:14.114 -06:00 [INF] Inicio Search.Index
+2026-07-13 23:12:14.117 -06:00 [INF] Usuario:null IP:::1 Search:null
+2026-07-13 23:12:14.122 -06:00 [WRN] Search vacio
+2026-07-13 23:12:14.147 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:12:14.206 -06:00 [INF] Executed ViewResult - view Index executed in 62.7416ms.
+2026-07-13 23:12:14.235 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 650.4041ms
+2026-07-13 23:12:14.238 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:12:14.238 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:12:14.238 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:12:14.238 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:12:14.238 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:12:14.252 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:12:14.281 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.295 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.312 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.367 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:12:14.347 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.350 -06:00 [INF] HTTP GET /search Status:200 Tiempo:850 ms
+2026-07-13 23:12:14.356 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:12:14.411 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.379 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.379 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:12:14.390 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:12:14.410 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/search - 200 null text/html; charset=utf-8 1100.8965ms
+2026-07-13 23:12:14.335 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.419 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:141 ms
+2026-07-13 23:12:14.423 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:129 ms
+2026-07-13 23:12:14.429 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.436 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.454 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:12:14.461 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 223.7896ms
+2026-07-13 23:12:14.476 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 238.3682ms
+2026-07-13 23:12:14.487 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:176 ms
+2026-07-13 23:12:14.491 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:146 ms
+2026-07-13 23:12:14.500 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.514 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:12:14.549 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 310.1843ms
+2026-07-13 23:12:14.558 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 319.8819ms
+2026-07-13 23:12:14.564 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:231 ms
+2026-07-13 23:12:14.576 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.615 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 376.6146ms
+2026-07-13 23:12:14.620 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:12:14.642 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:14.650 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:74 ms
+2026-07-13 23:12:14.666 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 151.4273ms
+2026-07-13 23:12:30.950 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Search?search=admin - null null
+2026-07-13 23:12:30.974 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:12:30.988 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-13 23:12:31.044 -06:00 [INF] Inicio Search.Index
+2026-07-13 23:12:31.048 -06:00 [INF] Usuario:null IP:::1 Search:admin
+2026-07-13 23:12:32.124 -06:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-13 23:12:36.412 -06:00 [INF] Executed DbCommand (261ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-07-13 23:12:36.602 -06:00 [INF] Resultados encontrados:1
+2026-07-13 23:12:36.605 -06:00 [INF] Fin Search.Index Tiempo:5557 ms
+2026-07-13 23:12:36.610 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:12:36.616 -06:00 [INF] Executed ViewResult - view Index executed in 6.9002ms.
+2026-07-13 23:12:36.621 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 5612.1825ms
+2026-07-13 23:12:36.634 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:12:36.637 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:12:36.637 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:12:36.639 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:12:36.642 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:12:36.647 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:12:36.649 -06:00 [INF] HTTP GET /Search Status:200 Tiempo:5675 ms
+2026-07-13 23:12:36.658 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.670 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.683 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.694 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.705 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.740 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:12:36.740 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:12:36.756 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:12:36.765 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Search?search=admin - 200 null text/html; charset=utf-8 5815.1294ms
+2026-07-13 23:12:36.769 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:12:36.804 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:12:36.815 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.822 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.830 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.842 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:12:36.849 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.852 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.857 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:187 ms
+2026-07-13 23:12:36.863 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:205 ms
+2026-07-13 23:12:36.866 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:183 ms
+2026-07-13 23:12:36.883 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:36.886 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:192 ms
+2026-07-13 23:12:36.890 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:185 ms
+2026-07-13 23:12:36.897 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 260.0944ms
+2026-07-13 23:12:36.903 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 266.5017ms
+2026-07-13 23:12:36.910 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 270.3739ms
+2026-07-13 23:12:36.917 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:12:36.922 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 280.2254ms
+2026-07-13 23:12:36.930 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 282.829ms
+2026-07-13 23:12:36.963 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:37.001 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:119 ms
+2026-07-13 23:12:37.016 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 174.1386ms
+2026-07-13 23:12:57.190 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5284/auth/login - application/x-www-form-urlencoded 212
+2026-07-13 23:12:57.197 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:12:57.202 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller VulnerableApp.Controllers.AuthController (VulnerableApp).
+2026-07-13 23:12:57.445 -06:00 [INF] Intento Login Usuario:admin IP:::1
+2026-07-13 23:12:57.582 -06:00 [INF] Executed DbCommand (8ms) [Parameters=[@username='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @username
+2026-07-13 23:12:58.129 -06:00 [INF] Login exitoso Usuario:admin
+2026-07-13 23:12:58.133 -06:00 [INF] Tiempo login:688 ms
+2026-07-13 23:12:58.139 -06:00 [INF] Executing RedirectResult, redirecting to /Auth/Dashboard.
+2026-07-13 23:12:58.144 -06:00 [INF] Executed action VulnerableApp.Controllers.AuthController.Login (VulnerableApp) in 933.4853ms
+2026-07-13 23:12:58.150 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:12:58.155 -06:00 [INF] Session started; Key:da4cdd91-b807-e6e1-f487-c8473f528d06, Id:7d73abe8-ca24-ab40-17f7-103bf33c42bb
+2026-07-13 23:12:58.161 -06:00 [INF] HTTP POST /auth/login Status:302 Tiempo:964 ms
+2026-07-13 23:12:58.174 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5284/auth/login - 302 0 null 983.983ms
+2026-07-13 23:12:58.190 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Auth/Dashboard - null null
+2026-07-13 23:12:58.201 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.AuthController.Dashboard (VulnerableApp)'
+2026-07-13 23:12:58.210 -06:00 [INF] Route matched with {action = "Dashboard", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller VulnerableApp.Controllers.AuthController (VulnerableApp).
+2026-07-13 23:12:58.467 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @p
+2026-07-13 23:12:58.480 -06:00 [INF] Acceso Dashboard Usuario:admin
+2026-07-13 23:12:58.487 -06:00 [INF] Executing ViewResult, running view Dashboard.
+2026-07-13 23:12:58.510 -06:00 [INF] Executed ViewResult - view Dashboard executed in 25.4451ms.
+2026-07-13 23:12:58.520 -06:00 [INF] Executed action VulnerableApp.Controllers.AuthController.Dashboard (VulnerableApp) in 303.3548ms
+2026-07-13 23:12:58.528 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.AuthController.Dashboard (VulnerableApp)'
+2026-07-13 23:12:58.535 -06:00 [INF] HTTP GET /Auth/Dashboard Status:200 Tiempo:335 ms
+2026-07-13 23:12:58.546 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:12:58.546 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:12:58.548 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:12:58.549 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:12:58.549 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:12:58.553 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Auth/Dashboard - 200 null text/html; charset=utf-8 362.6576ms
+2026-07-13 23:12:58.566 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.581 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.589 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.600 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.609 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.617 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:12:58.620 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:12:58.627 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:12:58.627 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:12:58.632 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:12:58.635 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:12:58.643 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.646 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.651 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.659 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.663 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.667 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.673 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:12:58.680 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:114 ms
+2026-07-13 23:12:58.689 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:108 ms
+2026-07-13 23:12:58.696 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:107 ms
+2026-07-13 23:12:58.699 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:100 ms
+2026-07-13 23:12:58.702 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:96 ms
+2026-07-13 23:12:58.707 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:12:58.715 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 169.1302ms
+2026-07-13 23:12:58.720 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 173.1795ms
+2026-07-13 23:12:58.726 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 178.4008ms
+2026-07-13 23:12:58.732 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 183.0107ms
+2026-07-13 23:12:58.736 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 186.2547ms
+2026-07-13 23:12:58.739 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:96 ms
+2026-07-13 23:12:58.796 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 179.3783ms
+2026-07-13 23:13:01.934 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/auth/login - null null
+2026-07-13 23:13:01.948 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:13:01.957 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller VulnerableApp.Controllers.AuthController (VulnerableApp).
+2026-07-13 23:13:01.966 -06:00 [INF] Inicio Login GET
+2026-07-13 23:13:01.972 -06:00 [INF] Executing ViewResult, running view Login.
+2026-07-13 23:13:02.131 -06:00 [INF] Executed ViewResult - view Login executed in 161.2897ms.
+2026-07-13 23:13:02.138 -06:00 [INF] Executed action VulnerableApp.Controllers.AuthController.Login (VulnerableApp) in 173.1413ms
+2026-07-13 23:13:02.149 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:13:02.158 -06:00 [INF] HTTP GET /auth/login Status:200 Tiempo:210 ms
+2026-07-13 23:13:02.173 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/auth/login - 200 null text/html; charset=utf-8 239.2266ms
+2026-07-13 23:13:06.766 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5284/auth/login - application/x-www-form-urlencoded 213
+2026-07-13 23:13:06.781 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:13:06.787 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller VulnerableApp.Controllers.AuthController (VulnerableApp).
+2026-07-13 23:13:06.801 -06:00 [INF] Intento Login Usuario:admin IP:::1
+2026-07-13 23:13:06.817 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@username='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @username
+2026-07-13 23:13:07.214 -06:00 [WRN] Login fallido Usuario:admin
+2026-07-13 23:13:07.226 -06:00 [INF] Executing ViewResult, running view Login.
+2026-07-13 23:13:07.236 -06:00 [INF] Executed ViewResult - view Login executed in 10.0364ms.
+2026-07-13 23:13:07.245 -06:00 [INF] Executed action VulnerableApp.Controllers.AuthController.Login (VulnerableApp) in 446.2143ms
+2026-07-13 23:13:07.264 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:13:07.264 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:13:07.264 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:13:07.264 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:13:07.264 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:13:07.265 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.AuthController.Login (VulnerableApp)'
+2026-07-13 23:13:07.285 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.302 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.314 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.323 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.331 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.333 -06:00 [INF] HTTP POST /auth/login Status:200 Tiempo:552 ms
+2026-07-13 23:13:07.338 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:13:07.346 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:13:07.348 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:13:07.350 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:13:07.358 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:13:07.361 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5284/auth/login - 200 null text/html; charset=utf-8 595.2719ms
+2026-07-13 23:13:07.365 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.370 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.379 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.382 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.388 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.400 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:117 ms
+2026-07-13 23:13:07.403 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:102 ms
+2026-07-13 23:13:07.408 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:94 ms
+2026-07-13 23:13:07.410 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:88 ms
+2026-07-13 23:13:07.414 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:83 ms
+2026-07-13 23:13:07.421 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 156.4783ms
+2026-07-13 23:13:07.427 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 163.3609ms
+2026-07-13 23:13:07.433 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 169.5932ms
+2026-07-13 23:13:07.440 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 175.6857ms
+2026-07-13 23:13:07.445 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 180.9632ms
+2026-07-13 23:13:07.457 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:13:07.512 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.517 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:13:07.521 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:07.524 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:12 ms
+2026-07-13 23:13:07.530 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 72.8511ms
+2026-07-13 23:13:19.978 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5284/Comment/AddComment - application/x-www-form-urlencoded 18
+2026-07-13 23:13:19.986 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-13 23:13:19.993 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-13 23:13:20.000 -06:00 [INF] Intento agregar comentario:HOLA MUNDO
+2026-07-13 23:13:20.008 -06:00 [INF] Comentario agregado correctamente
+2026-07-13 23:13:20.011 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-13 23:13:20.015 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 16.8448ms
+2026-07-13 23:13:20.019 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-13 23:13:20.023 -06:00 [INF] HTTP POST /Comment/AddComment Status:302 Tiempo:38 ms
+2026-07-13 23:13:20.030 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5284/Comment/AddComment - 302 0 null 51.8179ms
+2026-07-13 23:13:20.043 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Comment - null null
+2026-07-13 23:13:20.048 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:13:20.053 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-13 23:13:20.057 -06:00 [INF] Inicio Comment.Index
+2026-07-13 23:13:20.060 -06:00 [INF] Total comentarios:1
+2026-07-13 23:13:20.065 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:13:20.092 -06:00 [INF] Executed ViewResult - view Index executed in 29.3338ms.
+2026-07-13 23:13:20.095 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 38.6552ms
+2026-07-13 23:13:20.098 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:13:20.102 -06:00 [INF] HTTP GET /Comment Status:200 Tiempo:54 ms
+2026-07-13 23:13:20.106 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:13:20.107 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:13:20.108 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:13:20.109 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:13:20.109 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:13:20.112 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Comment - 200 null text/html; charset=utf-8 69.1423ms
+2026-07-13 23:13:20.117 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.124 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.128 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.155 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:13:20.138 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.142 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:13:20.152 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:13:20.133 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.159 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:13:20.162 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.168 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:13:20.176 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.180 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.190 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:13:20.196 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.200 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:82 ms
+2026-07-13 23:13:20.208 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.214 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:13:20.215 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:91 ms
+2026-07-13 23:13:20.222 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.226 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:97 ms
+2026-07-13 23:13:20.233 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 126.3816ms
+2026-07-13 23:13:20.238 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:100 ms
+2026-07-13 23:13:20.245 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:20.250 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 142.5303ms
+2026-07-13 23:13:20.253 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:120 ms
+2026-07-13 23:13:20.258 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 151.0533ms
+2026-07-13 23:13:20.274 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 164.695ms
+2026-07-13 23:13:20.277 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:101 ms
+2026-07-13 23:13:20.291 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 182.5663ms
+2026-07-13 23:13:20.318 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 175.9285ms
+2026-07-13 23:13:24.324 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5284/Comment/AddComment - application/x-www-form-urlencoded 12
+2026-07-13 23:13:24.331 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-13 23:13:24.333 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-13 23:13:24.341 -06:00 [INF] Intento agregar comentario:HOLA
+2026-07-13 23:13:24.344 -06:00 [INF] Comentario agregado correctamente
+2026-07-13 23:13:24.347 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-13 23:13:24.349 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 8.295ms
+2026-07-13 23:13:24.358 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-13 23:13:24.361 -06:00 [INF] HTTP POST /Comment/AddComment Status:302 Tiempo:30 ms
+2026-07-13 23:13:24.367 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5284/Comment/AddComment - 302 0 null 43.4651ms
+2026-07-13 23:13:24.380 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Comment - null null
+2026-07-13 23:13:24.390 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:13:24.392 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-13 23:13:24.396 -06:00 [INF] Inicio Comment.Index
+2026-07-13 23:13:24.399 -06:00 [INF] Total comentarios:2
+2026-07-13 23:13:24.405 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:13:24.412 -06:00 [INF] Executed ViewResult - view Index executed in 6.6975ms.
+2026-07-13 23:13:24.416 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 20.3157ms
+2026-07-13 23:13:24.421 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-13 23:13:24.425 -06:00 [INF] HTTP GET /Comment Status:200 Tiempo:35 ms
+2026-07-13 23:13:24.433 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Comment - 200 null text/html; charset=utf-8 53.4586ms
+2026-07-13 23:13:24.437 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:13:24.437 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:13:24.438 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:13:24.438 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:13:24.438 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:13:24.450 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:13:24.481 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.497 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.506 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.513 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.524 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.532 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.537 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:13:24.541 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:13:24.547 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:13:24.550 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:13:24.559 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:13:24.566 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.566 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:13:24.574 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.579 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.583 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.594 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.598 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:117 ms
+2026-07-13 23:13:24.602 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:24.611 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:114 ms
+2026-07-13 23:13:24.619 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:113 ms
+2026-07-13 23:13:24.625 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:113 ms
+2026-07-13 23:13:24.630 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:106 ms
+2026-07-13 23:13:24.636 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 199.1915ms
+2026-07-13 23:13:24.641 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:109 ms
+2026-07-13 23:13:24.646 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 208.4053ms
+2026-07-13 23:13:24.655 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 216.5651ms
+2026-07-13 23:13:24.661 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 222.8864ms
+2026-07-13 23:13:24.667 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 228.601ms
+2026-07-13 23:13:24.687 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 236.7906ms
+2026-07-13 23:13:37.043 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/api/users - null null
+2026-07-13 23:13:37.059 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.ApiController.GetAllUsers (VulnerableApp)'
+2026-07-13 23:13:37.080 -06:00 [INF] Route matched with {action = "GetAllUsers", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers() on controller VulnerableApp.Controllers.ApiController (VulnerableApp).
+2026-07-13 23:13:37.136 -06:00 [INF] API GetAllUsers ejecutado
+2026-07-13 23:13:37.204 -06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Username], [u].[Email]
+FROM [Users] AS [u]
+2026-07-13 23:13:37.224 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], VulnerableApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-13 23:13:37.312 -06:00 [INF] Executed action VulnerableApp.Controllers.ApiController.GetAllUsers (VulnerableApp) in 194.5432ms
+2026-07-13 23:13:37.327 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.ApiController.GetAllUsers (VulnerableApp)'
+2026-07-13 23:13:37.338 -06:00 [INF] HTTP GET /api/users Status:200 Tiempo:280 ms
+2026-07-13 23:13:37.353 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/api/users - 200 null application/json; charset=utf-8 310.2768ms
+2026-07-13 23:13:43.494 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger - null null
+2026-07-13 23:13:43.610 -06:00 [INF] HTTP GET /swagger Status:404 Tiempo:9 ms
+2026-07-13 23:13:43.658 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger - 404 0 null 164.331ms
+2026-07-13 23:13:43.795 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5284/swagger, Response status code: 404
+2026-07-13 23:13:54.152 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Search?search=aaaaaaaa - null null
+2026-07-13 23:13:54.188 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:13:54.192 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-13 23:13:54.222 -06:00 [INF] Inicio Search.Index
+2026-07-13 23:13:54.238 -06:00 [INF] Usuario:admin IP:::1 Search:aaaaaaaa
+2026-07-13 23:13:54.283 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-07-13 23:13:54.334 -06:00 [INF] Resultados encontrados:0
+2026-07-13 23:13:54.339 -06:00 [INF] Fin Search.Index Tiempo:112 ms
+2026-07-13 23:13:54.344 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:13:54.354 -06:00 [INF] Executed ViewResult - view Index executed in 10.5156ms.
+2026-07-13 23:13:54.377 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:13:54.377 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:13:54.379 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 166.6596ms
+2026-07-13 23:13:54.381 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:13:54.383 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:13:54.384 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:13:54.399 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.412 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.419 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:13:54.431 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.449 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.461 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.473 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:13:54.473 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:13:54.477 -06:00 [INF] HTTP GET /Search Status:200 Tiempo:290 ms
+2026-07-13 23:13:54.485 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:13:54.493 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:13:54.505 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:13:54.511 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.518 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.524 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Search?search=aaaaaaaa - 200 null text/html; charset=utf-8 371.5109ms
+2026-07-13 23:13:54.528 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.534 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.538 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.542 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:143 ms
+2026-07-13 23:13:54.545 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:134 ms
+2026-07-13 23:13:54.567 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:136 ms
+2026-07-13 23:13:54.571 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:122 ms
+2026-07-13 23:13:54.574 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:114 ms
+2026-07-13 23:13:54.581 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 205.0949ms
+2026-07-13 23:13:54.589 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 211.4978ms
+2026-07-13 23:13:54.596 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 215.0491ms
+2026-07-13 23:13:54.604 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 221.1278ms
+2026-07-13 23:13:54.614 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 230.0964ms
+2026-07-13 23:13:54.639 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:13:54.674 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.680 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:13:54.692 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:54.696 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:21 ms
+2026-07-13 23:13:54.702 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 62.4271ms
+2026-07-13 23:13:58.987 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Search?search=AAA - null null
+2026-07-13 23:13:58.994 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:13:58.999 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-07-13 23:13:59.005 -06:00 [INF] Inicio Search.Index
+2026-07-13 23:13:59.008 -06:00 [INF] Usuario:admin IP:::1 Search:AAA
+2026-07-13 23:13:59.017 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[PasswordHash], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-07-13 23:13:59.024 -06:00 [INF] Resultados encontrados:0
+2026-07-13 23:13:59.028 -06:00 [INF] Fin Search.Index Tiempo:18 ms
+2026-07-13 23:13:59.032 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 23:13:59.038 -06:00 [INF] Executed ViewResult - view Index executed in 5.299ms.
+2026-07-13 23:13:59.041 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 36.538ms
+2026-07-13 23:13:59.045 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-07-13 23:13:59.052 -06:00 [INF] HTTP GET /Search Status:200 Tiempo:57 ms
+2026-07-13 23:13:59.052 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-07-13 23:13:59.052 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-13 23:13:59.053 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 23:13:59.055 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - null null
+2026-07-13 23:13:59.055 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-13 23:13:59.060 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Search?search=AAA - 200 null text/html; charset=utf-8 73.0506ms
+2026-07-13 23:13:59.069 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.077 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.084 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.090 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.097 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.105 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 23:13:59.109 -06:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz'
+2026-07-13 23:13:59.135 -06:00 [INF] Sending file. Request path: 'VulnerableApp.styles.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\uoihj7ooh1-{0}-872arltcfk-872arltcfk.gz'
+2026-07-13 23:13:59.135 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\4zpp9vfi2r-{0}-46ein0sx1k-46ein0sx1k.gz'
+2026-07-13 23:13:59.141 -06:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\qbdzirddbn-{0}-o1o13a6vjx-o1o13a6vjx.gz'
+2026-07-13 23:13:59.147 -06:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\1pcvqu3pys-{0}-493y06b0oq-493y06b0oq.gz'
+2026-07-13 23:13:59.155 -06:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.158 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.162 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.168 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.173 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.176 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.183 -06:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz'
+2026-07-13 23:13:59.184 -06:00 [INF] HTTP GET /css/site.css Status:200 Tiempo:115 ms
+2026-07-13 23:13:59.187 -06:00 [INF] HTTP GET /VulnerableApp.styles.css Status:200 Tiempo:102 ms
+2026-07-13 23:13:59.190 -06:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css Status:200 Tiempo:113 ms
+2026-07-13 23:13:59.192 -06:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js Status:200 Tiempo:102 ms
+2026-07-13 23:13:59.195 -06:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js Status:200 Tiempo:99 ms
+2026-07-13 23:13:59.201 -06:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2026-07-13 23:13:59.206 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 153.2232ms
+2026-07-13 23:13:59.211 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1142 text/css 158.3949ms
+2026-07-13 23:13:59.216 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 163.8708ms
+2026-07-13 23:13:59.220 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 165.0666ms
+2026-07-13 23:13:59.224 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 168.8094ms
+2026-07-13 23:13:59.226 -06:00 [INF] HTTP GET /js/site.js Status:200 Tiempo:71 ms
+2026-07-13 23:13:59.265 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 160.8652ms
+2026-07-13 23:14:06.740 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5284/Home/NoExiste - null null
+2026-07-13 23:14:06.768 -06:00 [INF] HTTP GET /Home/NoExiste Status:404 Tiempo:0 ms
+2026-07-13 23:14:06.777 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5284/Home/NoExiste - 404 0 null 35.7508ms
+2026-07-13 23:14:06.857 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5284/Home/NoExiste, Response status code: 404
+2026-07-13 23:34:43.458 -06:00 [INF] Application is shutting down...
