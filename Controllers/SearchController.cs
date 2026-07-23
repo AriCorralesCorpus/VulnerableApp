@@ -30,7 +30,7 @@ namespace VulnerableApp.Controllers
 
             if (string.IsNullOrEmpty(search))
             {
-                _logger.LogWarning("Search vacio");
+                _logger.LogWarning("Warning: Search vacio");
                 return View(new List<User>());
             }
             var users = _db.Users

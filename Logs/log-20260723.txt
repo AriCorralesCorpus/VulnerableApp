@@ -1,0 +1,42 @@
+2026-07-23 12:44:47.195 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-23 12:44:48.966 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 12:44:49.707 -06:00 [INF] Now listening on: https://localhost:7033
+2026-07-23 12:44:49.711 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-23 12:44:49.791 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 12:44:49.794 -06:00 [INF] Hosting environment: Development
+2026-07-23 12:44:49.798 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-23 13:01:11.671 -06:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:5284/ - null null
+2026-07-23 13:01:11.728 -06:00 [INF] Request finished HTTP/1.1 HEAD http://localhost:5284/ - 307 null null 59.8307ms
+2026-07-23 13:03:51.411 -06:00 [INF] Request starting HTTP/1.1 HEAD https://localhost:7033/ - null null
+2026-07-23 13:03:51.580 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-23 13:03:51.663 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-23 13:03:51.673 -06:00 [INF] Inicio Home.Index
+2026-07-23 13:03:51.682 -06:00 [INF] Usuario: null IP: ::1
+2026-07-23 13:03:51.685 -06:00 [INF] Fin Home.Index Tiempo: 12 ms
+2026-07-23 13:03:51.703 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-23 13:03:51.965 -06:00 [INF] Executed ViewResult - view Index executed in 263.8179ms.
+2026-07-23 13:03:51.969 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 300.1739ms
+2026-07-23 13:03:51.971 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-23 13:03:51.974 -06:00 [INF] HTTP HEAD / Status:200 Tiempo:537 ms
+2026-07-23 13:03:51.977 -06:00 [INF] Request finished HTTP/1.1 HEAD https://localhost:7033/ - 200 null text/html; charset=utf-8 566.1776ms
+2026-07-23 13:12:42.515 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-23 13:12:42.807 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 13:12:43.106 -06:00 [INF] Now listening on: https://localhost:7033
+2026-07-23 13:12:43.109 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-23 13:12:43.225 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 13:12:43.228 -06:00 [INF] Hosting environment: Development
+2026-07-23 13:12:43.230 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-23 13:33:07.062 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-23 13:33:07.670 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 13:33:08.046 -06:00 [INF] Now listening on: https://localhost:7033
+2026-07-23 13:33:08.048 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-23 13:33:08.105 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 13:33:08.107 -06:00 [INF] Hosting environment: Development
+2026-07-23 13:33:08.110 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp
+2026-07-23 13:57:06.820 -06:00 [INF] La aplicacion inicio correctamente
+2026-07-23 13:57:07.167 -06:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 13:57:07.527 -06:00 [INF] Now listening on: https://localhost:7033
+2026-07-23 13:57:07.531 -06:00 [INF] Now listening on: http://localhost:5284
+2026-07-23 13:57:07.597 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 13:57:07.599 -06:00 [INF] Hosting environment: Development
+2026-07-23 13:57:07.601 -06:00 [INF] Content root path: C:\Users\LENOVO\Desktop\Gerardo\VulnerableApp

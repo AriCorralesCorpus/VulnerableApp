@@ -1,0 +1,5 @@
+# ID_REGLA	ACCION	COMENTARIO
+10020	WARN	Missing Anti-clickjacking Header - pendiente de corregir
+10035	WARN	Strict-Transport-Security Header - solo aplica cuando se use HTTPS
+10038	WARN	Content Security Policy - pendiente de implementar
+10021	WARN	X-Content-Type-Options Header - pendiente de corregir
